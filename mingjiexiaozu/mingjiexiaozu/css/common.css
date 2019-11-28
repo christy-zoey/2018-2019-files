@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+/*Start ---------- reset ------------ */
+	html, body, div, span, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	abbr, address, cite, code,
+	del, dfn, em, img, ins, kbd, q, samp,
+	small, strong, sub, sup, var,
+	b, i,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section, summary,
+	time, mark, audio, video {
+			box-sizing: border-box;
+	    margin:0;
+	    padding:0;
+	    border:0;
+	    outline:none;
+	    font-size:100%;
+	    vertical-align:baseline;
+	    background:transparent;
+	}
+
+	body {
+	    line-height:1;
+	}
+
+	:focus {
+		outline: 1;
+	}
+	input,button{
+		outline: none;
+	}
+	article,aside,canvas,details,figcaption,figure,
+	footer,header,hgroup,menu,nav,section,summary { 
+	    display:block;
+	}
+
+	nav ul {
+	    list-style:none;
+	}
+
+	blockquote, q {
+	    quotes:none;
+	}
+
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+	    content:'';
+	    content:none;
+	}
+
+	a {
+	    margin:0;
+	    padding:0;
+	    border:0;
+	    font-size:100%;
+	    vertical-align:baseline;
+	    background:transparent;
+	}
+
+	ins {
+	    background-color:#ff9;
+	    color:#000;
+	    text-decoration:none;
+	}
+
+	mark {
+	    background-color:#ff9;
+	    color:#000; 
+	    font-style:italic;
+	    font-weight:bold;
+	}
+
+	del {
+	    text-decoration: line-through;
+	}
+
+	abbr[title], dfn[title] {
+	    border-bottom:1px dotted #000;
+	    cursor:help;
+	}
+
+	table {
+	    border-collapse:collapse;
+	    border-spacing:0;
+	}
+
+	hr {
+	    display:block;
+	    height:1px;
+	    border:0;   
+	    border-top:1px solid #cccccc;
+	    margin:1em 0;
+	    padding:0;
+	}
+
+	input, select {vertical-align:middle;}
+
+	img{ 
+		width: 100%;
+	}
+	
+	/**{*/
+		/*&:hover, &:active, &:visited, &:link, &:focus{*/
+			/*-webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
+		  /*-webkit-tap-highlight-color: transparent; */
+		/*}*/
+	/*}*/
+/*End ------------ reset ------------ */
+
+
+/*http://mxd.tencent.com/wp-content/uploads/2014/11/rem.html*/
+/*375的设计图 100px = 1rem*/
+/*Start ---------- css media ------------ */
+		
+
+/*End ------------ css media ------------ */
+
+.messageBox {
+	position: fixed;
+	width: 60%;
+	top: 20%;
+	left: 20%;
+	text-align: center;
+	z-index: 1999;
+	display: block;
+	min-width: 150px;
+	display: inline-block;
+	font-size: 0.14rem;
+	font-weight: bold;
+	color: #ffffff;
+	background: #000000;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	border-radius: 6px;
+	padding: 0.13rem 0.08rem;
+}
+
+
+
+
+::-webkit-input-placeholder {
+  color: #909;
+}
+:-moz-placeholder {
+  color: #909;
+}
+::-moz-placeholder {
+  color: #909;
+}
+:-ms-input-placeholder {
+  color: #909;
+}

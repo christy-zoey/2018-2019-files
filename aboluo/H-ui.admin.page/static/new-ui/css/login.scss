@@ -1,0 +1,79 @@
+$bace-color:#3b80ee;
+.loginWraper{
+  background-color: #e5edf8!important;
+  .login-icon{
+    overflow: hidden;
+    padding: 25px;
+    line-height: 1.2;
+    h1{
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 0.7px;
+      text-align: left;
+      color: $bace-color;
+      float: left;
+      padding: 0;
+    }
+    span{
+      float: right;
+      a{
+        color: $bace-color;
+      }
+    }
+  }
+  .loginBox{
+    overflow: hidden;
+    .login-left{
+      width: 40%;
+      float: left;
+      padding:18px;
+      box-sizing: border-box;
+      margin-top: 30px;
+      img{
+        width: 100%;
+      }
+    }
+    .form{
+      width: 60%;
+      float: left;
+      h2{
+        letter-spacing: 20px;
+        font-size: 24px;
+        padding: 0;
+        text-align: center;
+        color: $bace-color;
+      }
+      .row{
+        margin:15px 0 0 0;
+        .btn-success{
+          width: 100%;
+        }
+      }
+      .formControls{
+        padding: 0;
+        border: 1px solid $bace-color;
+        border-radius: 3px;
+        box-sizing: content-box;
+        overflow: hidden;
+        .code-box{
+          float: left;
+          width:64%;
+          text-indent: 57px;
+        }
+        #kanbuq{
+          height: 41px;
+          width: auto;
+          display: block;
+          float: right;
+          img{
+            height: 100%;
+          }
+        }
+
+      }
+    }
+  }
+}
+.footer{
+  background-color: $bace-color;
+}

@@ -1,0 +1,63 @@
+.loginWraper {
+  background-color: #e5edf8 !important; }
+  .loginWraper .login-icon {
+    overflow: hidden;
+    padding: 25px;
+    line-height: 1.2; }
+    .loginWraper .login-icon h1 {
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 0.7px;
+      text-align: left;
+      color: #3b80ee;
+      float: left;
+      padding: 0; }
+    .loginWraper .login-icon span {
+      float: right; }
+      .loginWraper .login-icon span a {
+        color: #3b80ee; }
+  .loginWraper .loginBox {
+    overflow: hidden; }
+    .loginWraper .loginBox .login-left {
+      width: 40%;
+      float: left;
+      padding: 18px;
+      box-sizing: border-box;
+      margin-top: 30px; }
+      .loginWraper .loginBox .login-left img {
+        width: 100%; }
+    .loginWraper .loginBox .form {
+      width: 60%;
+      float: left; }
+      .loginWraper .loginBox .form h2 {
+        letter-spacing: 20px;
+        font-size: 24px;
+        padding: 0;
+        text-align: center;
+        color: #3b80ee; }
+      .loginWraper .loginBox .form .row {
+        margin: 15px 0 0 0; }
+        .loginWraper .loginBox .form .row .btn-success {
+          width: 100%; }
+      .loginWraper .loginBox .form .formControls {
+        padding: 0;
+        border: 1px solid #3b80ee;
+        border-radius: 3px;
+        box-sizing: content-box;
+        overflow: hidden; }
+        .loginWraper .loginBox .form .formControls .code-box {
+          float: left;
+          width: 64%;
+          text-indent: 57px; }
+        .loginWraper .loginBox .form .formControls #kanbuq {
+          height: 41px;
+          width: auto;
+          display: block;
+          float: right; }
+          .loginWraper .loginBox .form .formControls #kanbuq img {
+            height: 100%; }
+
+.footer {
+  background-color: #3b80ee; }
+
+/*# sourceMappingURL=login.css.map */

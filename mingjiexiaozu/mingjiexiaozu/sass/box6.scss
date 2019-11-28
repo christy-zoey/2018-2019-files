@@ -1,0 +1,377 @@
+.box6{
+  display: none;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  overflow-y:auto;
+  overflow-x: hidden;
+  background-size: 100% 100%;
+  font-family: Georgia, serif;
+  position: relative;
+  &_bg {
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+  &_content{
+    position: absolute;
+    top: 0%;
+
+    .box6_head{
+      img{
+        width: 100%;
+      }
+      img:nth-child(2){
+        width: 90%;
+        margin-left: 5%;
+      }
+    }
+    .box6_person{
+      overflow: hidden;
+      padding: 15px;
+      img{
+        width: 23%;
+        float: left;
+        margin-left: 2.6%;
+      }
+      img:nth-child(1){
+        margin-left: 0;
+      }
+    }
+    .box6_mim{
+      overflow: hidden;
+      padding: 15px;
+      >img{
+        width: 70%;
+        margin-left: 7%;
+        display: block;
+      }
+      >img:nth-child(2){
+        width: 50%;
+        margin-left: 25%;
+      }
+      >div{
+        margin-top: 30px;
+        img{
+          width: 24%;
+          float: left;
+        }
+      }
+
+    }
+    .box6_form{
+      margin: 0 .15rem;
+      border: 1px solid #3f3e3a;
+      background: #efe4d3;
+      padding: 3px;
+      margin-top: .4rem;
+      height: 3.45rem;
+
+      .box6_form-bd{
+        border: 1px solid #3f3e3a;
+        background: #f7f7f7;
+        position: relative;
+        height: 3.37rem;
+        padding: .4rem .2rem .3rem .2rem;
+        >img{
+          width: 50%;
+          left: 25%;
+          position: absolute;
+          top:-9%;
+        }
+        >ul{
+          list-style: none;
+          overflow: hidden;
+          li{
+            font-size:.16rem;
+            color: #3f3e3a;
+            font-weight: bold;
+            height: .42rem;
+            line-height: .42rem;
+            text-align: center;
+            width: 47%;
+            float: left;
+            border: solid 1px #3f3e3a;
+            position: relative;
+            img:nth-child(1){
+              position: absolute;
+              width: .15rem;
+              height: .15rem;
+              left: 0;
+              bottom: 0;
+              top: auto;
+              transform: rotate(0deg);
+            }
+            img{
+              display: none;
+              position: absolute;
+              width: .15rem;
+              height: .15rem;
+              right: 0;
+              top:0;
+              transform: rotate(180deg);
+            }
+          }
+          li:nth-child(1){
+            margin-right: 6%;
+          }
+        }
+        .box6_form-con{
+          font-size:.16rem;
+          color: #3f3e3a;
+          margin-top: .05rem;
+          h1{
+            margin-top: .7rem;
+            font-size: .16rem;
+            line-height: 2;
+            text-align: center;
+            i{font-size: .18rem;font-style: normal;}
+          }
+          .input-box{
+            margin-top: .1rem;
+            overflow: hidden;
+            label{
+              width:28%;
+              float: left;
+              line-height: .42rem;
+            }
+            input,select{
+              width: 71%;
+              float: left;
+              height: .42rem;
+              border: solid 1px #3f3e3a;
+              text-indent: .1rem;
+            }
+
+            input::-webkit-input-placeholder, select::-webkit-input-placeholder {
+              color: #97866c;
+            }
+          }
+        }
+        .box6_form-content{
+          aside:nth-child(2){display: none;}
+          aside:nth-child(1){
+            .box6_form-meih{
+              position: absolute;
+              width: 42%;
+              top: 25%;
+              right: 0;
+              opacity: 0.65;
+            }
+            .box6_form-zx{
+              position: absolute;
+              width:32%;
+              bottom: 9%;
+              opacity: 0.65;
+              left: 0;
+            }
+            .box6_form-mount{
+              position: absolute;
+              width:100%;
+              bottom: 0;
+              opacity: 0.65;
+              right: 0;
+            }
+          }
+        }
+      }
+
+    }
+
+    .box6_foot{
+      margin-top: .35rem;
+      .h2{
+        width: 70%;
+        margin-left: 15%;
+        display: block;
+      }
+      >div{
+        padding: .15rem;
+        overflow: hidden;
+        img{
+          margin-top: .1rem;
+          width: 22.75%;
+          float: left;
+          margin-right: 3%;
+        }
+        img:nth-child(4n){
+          margin-right: 0;
+        }
+      }
+      .h3{
+        display: block;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: .47rem;
+      }
+      .person{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: .3rem;
+      }
+      small{
+        font-size: .12rem;
+        text-align: center;
+        display: block;
+        color: #3f3e3a;
+      }
+    }
+  }
+  .box6_book{
+    img:nth-child(2){
+
+    }
+
+  }
+
+  .on-up{
+    animation: box4BookUp 1.5s infinite linear;
+  }
+  .active{
+    transform: translate(0px, -15px);
+    transition: all 500ms;
+  }
+  @keyframes box4BookUp {
+      0%,100%{transform: translate(0px, 0px)}
+      50% {transform: translate(0px, -15px) }
+    }
+  .modal{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 3.5%;
+    height: 4.2rem;
+    padding:0.23rem 0.145rem;
+    &:before{
+      content:'';
+      display: block;
+      position: absolute;
+      left: 0.145rem;
+      right: 0.145rem;
+      bottom: 0.23rem;
+      top: 0.23rem;
+      border: solid 2px #2c2c2c;
+      background-color: #f4f1f0;
+    };
+    .modal_content{
+      position: relative;
+      z-index: 33;
+      width: calc(100% - 0.1rem);
+      height: calc(100% - 0.1rem);
+      top: 0.05rem;
+      left: 0.05rem;
+      border: solid 2px #2c2c2c;
+      background-color: #f4f1f0;
+      overflow:hidden;
+      img{
+        display: none;
+        &.active{
+          display: block;
+        }
+      }
+    }
+    .icon_close{
+      position: absolute;
+      display: inline-block;
+      width: 0.3rem;
+      height: 0.3rem;
+      right: 0.065rem;
+      top: 0.16rem;
+      z-index: 50;
+      background: url(../images/icon_close.png) top left no-repeat;
+      background-size: 100% 100%;
+    }
+    .icon_radio_1{
+      position: absolute;
+      display: inline-block;
+      width: 0.3rem;
+      height: 0.3rem;
+      left: 0.065rem;
+      top:0.14rem;
+      z-index: 50;
+      background: url(../images/box_radio_1.png) top left no-repeat;
+      background-size: 100% 100%;
+    }
+    .icon_radio_3{
+      position: absolute;
+      display: inline-block;
+      width: 0.3rem;
+      height: 0.3rem;
+      right: 0.065rem;
+      bottom: 0.16rem;
+      z-index: 50;
+      background: url(../images/box_radio_3.png) top left no-repeat;
+      background-size: 100% 100%;
+    }
+    .icon_radio_4{
+      position: absolute;
+      display: inline-block;
+      width: 0.3rem;
+      height: 0.3rem;
+      left: 0.065rem;
+      bottom: 0.16rem;
+      z-index: 50;
+      background: url(../images/box_radio_4.png) top left no-repeat;
+      background-size: 100% 100%;
+    }
+    .modal_btnleft,.modal_btnright{
+      display: inline-block;
+      position: absolute;
+      z-index: 50;
+      bottom: -0.3rem;
+      width: 1.6rem;
+      height: 0.43rem;
+      line-height: 0.43rem;
+      border: solid 2px #2c2c2c;
+      background-color: #f4f1f0;
+      font-size: 0.14rem;
+      font-weight: bold;
+      color: #000;
+      text-align: center;
+      em{
+        font-style: normal;
+      }
+    }
+    .modal_btnleft{
+      left: 0.145rem;
+    }
+    .modal_btnright{
+      right: 0.145rem;
+    }
+  }
+  .subBtn{
+    display: block;
+    text-decoration: none;
+    margin-top: .15rem;
+    font-size:.17rem ;
+    font-weight: bold;
+    text-align: center;
+    line-height: .42rem;
+    color: #3f3e3a;
+    height: .42rem;
+    border: solid 1px #3f3e3a;
+
+    background: url("../images/box6/b6log.png") no-repeat #cfb998;
+    background-size: .15rem auto;
+    background-position: left bottom;
+    position: relative;
+    img{
+      position: absolute;
+      width: .15rem;
+      height: .15rem;
+      right: 0;
+      transform: rotate(180deg);
+    }
+  }
+  .on{
+    background: #cfb998!important;
+    img{
+      display: block !important;
+    }
+  }
+}

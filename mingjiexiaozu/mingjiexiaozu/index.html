@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="sass/index.css">
+    <link rel="stylesheet" type="text/css" href="sass/box1.css">
+    <link rel="stylesheet" type="text/css" href="sass/box4.css">
+    <link rel="stylesheet" type="text/css" href="sass/box6.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/swiper-4.3.3.min.js"></script>
+    <script type="text/javascript">
+        function setFontSize() {
+            var deviceWidth = document.documentElement.clientWidth;
+            if (deviceWidth > 750) deviceWidth = 750;
+            document.documentElement.style.fontSize = deviceWidth / 3.75 + 'px';
+        }
+        setFontSize();
+
+        //    背景音乐
+        var audio1 = document.getElementById('audio1');
+//        audio1.play();
+    </script>
+</head>
+<body>
+<div class="view">
+    <div id="loader">
+        <img src="images/box1/1.png" alt="">
+        <p>正在进入战场......</p>
+    </div>
+    <div class="box1">
+        <div class="musicBox">
+            <audio id="audio1" controls loop preload="auto"
+                   src="images/bgmusic.mp3" style="display: none">
+            </audio>
+        </div>
+        <div class="box1_bg">
+            <img class="banner_log1" src="images/box1/logl.png">
+            <img class="banner_log2" src="images/box1/logc.png">
+            <img class="banner_log3" src="images/box1/logr.png">
+        </div>
+        <div class="box1_font">
+            <img src="images/box1/ptit1.png"
+                 class="wow fadeInDown"
+                 data-wow-duration="1.5s"
+                 data-wow-delay="0">
+            <img src="images/box1/ft1.png"
+                 class="wow fadeInUp"
+                 data-wow-duration="1.5s"
+                 data-wow-delay="1.5s">
+            <img src="images/box1/ft2.png"
+                 class="wow fadeInUp"
+                 data-wow-duration="1.5s"
+                 data-wow-delay="2.5s">
+            <img src="images/box1/ft3.png"
+                 class="wow fadeInUp"
+                 data-wow-duration="1.5s"
+                 data-wow-delay="3.5s">
+            <img src="images/box1/ft4.png"
+                 class="wow fadeInUp"
+                 data-wow-duration="1.5s"
+                 data-wow-delay="4.5s">
+            <img src="images/box1/ft5.png"
+                 class="wow fadeInUp"
+                 data-wow-duration="1.5s"
+                 data-wow-delay="7.5s">
+        </div>
+        <div class="box1_jz click_jz zoomInDown wow"
+             data-wow-duration="2.5s"
+             data-wow-delay="5.5s">
+            <!-- <div class="box1_jz click_jz active"> -->
+            <span class="jz_light"></span>
+            <div class="jz_top"><img src="images/box1/jz_top.png"></div>
+            <div class="jz_body">
+                <img  class="wow fadeInLeft"
+                      data-wow-duration="1s"
+                      data-wow-delay="13s" src="images/box1/talk1.png">
+                <img  class="wow fadeInRight"
+                      data-wow-duration="1s"
+                      data-wow-delay="14.5s" src="images/box1/talk2.png">
+                <img  class="wow fadeInLeft"
+                      data-wow-duration="1s"
+                      data-wow-delay="15.5s" src="images/box1/talk3.png">
+                <img  class="dis-none"
+                      data-wow-duration="1s"
+                      data-wow-delay="16.5s" src="images/box1/talk4.png">
+                <img  class="wow "
+                      data-wow-duration="1s"
+                      data-wow-delay="17s" src="images/box1/talkd.png">
+            </div>
+            <div class="jz_bottom"><img src="images/box1/jz_bottom.png"></div>
+            <span class="netBtn click_box1_next wow fadeIn"
+                  data-wow-duration="1.5s"
+                  data-wow-delay="7s"></span>
+        </div>
+    </div>
+
+    <div class="box2 animated fadeIn">
+        <h2>此时<br>
+            江湖崛起一个神秘门派<br>
+            据说得到他们相助</h2>
+        <img src="images/box2/yhy.png"
+             class="box2_icon wow zoomIn"
+             data-wow-duration="2s"
+             data-wow-delay="0.3s">
+        <h3 class="box2_moon wow rollIn"
+            data-wow-duration="2s"
+            data-wow-delay="1.3s">中国航天队，成功登月！ </h3>
+        <h4 class="box2_error wow zoomInLeft"
+            data-wow-duration="2s"
+            data-wow-delay="3s">对不起，走错片场了！</h4>
+    </div>
+
+    <div class="box3"></div>
+
+    <div class="box4 animated zoomIn">
+        <div class="box4_top">
+            <p class="f20 wow fadeInUp"
+               data-wow-duration="1s"
+               data-wow-delay="1s">此时</p>
+            <p class="f20 wow fadeInUp"
+               data-wow-duration="1s"
+               data-wow-delay="1.5s">江湖崛起一个神秘门派</p>
+            <p class="f20 wow fadeInUp"
+               data-wow-duration="1s"
+               data-wow-delay="2s">据说得到他们相助</p>
+            <div class="block">
+					<span class="wow fadeIn"
+                          data-wow-duration="1s"
+                          data-wow-delay="2.5s">宣传</span>
+                <span class="wow fadeIn"
+                      data-wow-duration="1s"
+                      data-wow-delay="2.8s">卖货</span>
+                <span class="wow fadeIn"
+                      data-wow-duration="1s"
+                      data-wow-delay="3.1s">促销</span>
+                <span class="wow fadeIn"
+                      data-wow-duration="1s"
+                      data-wow-delay="3.4s">包装</span>
+            </div>
+            <p class="f24 wow fadeIn"
+               data-wow-duration="1s"
+               data-wow-delay="4s">统统不在话下！</p>
+        </div>
+        <div class="box4_ren wow zoomIn"
+             data-wow-duration="2s"
+             data-wow-delay="4.3s">
+            <img src="images/box4_ren.png">
+        </div>
+        <div class="box4_book click_book">
+            <div class="box4_book-item no_on">
+                <span data-index="0"></span>
+            </div>
+            <div class="box4_book-item no_on on-up">
+                <span data-index="1"></span>
+            </div>
+            <div class="box4_book-item no_on">
+                <span data-index="2"></span>
+            </div>
+            <div class="box4_book-item no_on">
+                <span data-index="3"></span>
+            </div>
+        </div>
+        <div class="box4_nextBtn click_box4_next"></div>
+        <div class="modal animated fadeInDown">
+            <span class="icon_close click_box4Modal_close"></span>
+            <span class="icon_radio_1"></span>
+            <span class="icon_radio_3"></span>
+            <span class="icon_radio_4"></span>
+            <div class="modal_content">
+                <img src="images/box4/modalgif01.gif">
+                <img src="images/box4/modalgif02.gif">
+                <img src="images/box4/modalgif03.gif">
+                <img src="images/box4/modalgif04.gif">
+            </div>
+            <span class="modal_btnleft click_box4Modal_btnleft">上一卷【<em class="show_btnleft">品牌宣传</em>】</span>
+            <span class="modal_btnright click_box4Modal_btnright">下一卷【<em class="show_btnright">活动促销</em>】</span>
+        </div>
+    </div>
+
+    <div class="box4_transition animated fadeIn">
+        <div class="box4_trans-tit">
+            <img src="images/box4/b4t1.png" alt="">
+            <img src="images/box4/b4t2.png" alt="">
+        </div>
+        <!--<div class="box4Trans_nextBtn click_box4Trans_next"></div>-->
+    </div>
+
+    <div class="box5 animated fadeIn">
+        <div class="box5_item">
+            <div class="box5_item-word">
+                <img class="wow fadeIn"
+                     data-wow-duration="2s"
+                     data-wow-delay="300ms"
+                     src="images/box5/box5_wold01.png">
+            </div>
+            <div class="box5_item-ren">
+                <img class="wow fadeInUpBig"
+                     data-wow-duration="2s"
+                     data-wow-delay="0"
+                     src="images/box5/box5_ren01.png">
+            </div>
+        </div>
+        <div class="box5_item">
+            <div class="box5_item-word">
+                <img class="wow fadeIn"
+                     data-wow-duration="1s"
+                     data-wow-delay="0s"
+                     src="images/box5/box5_wold02.png">
+            </div>
+            <div class="box5_item-ren">
+                <img class="wow zoomIn"
+                     data-wow-duration="2s"
+                     data-wow-delay="0"
+                     src="images/box5/box5_ren02.png">
+            </div>
+        </div>
+        <div class="box5_item">
+            <div class="box5_item-word">
+                <img class="wow fadeIn"
+                     data-wow-duration="1s"
+                     data-wow-delay="0s"
+                     src="images/box5/box5_wold03.png">
+            </div>
+            <div class="box5_item-ren">
+                <img class="wow fadeInLeft"
+                     data-wow-duration="2s"
+                     data-wow-delay="0"
+                     src="images/box5/box5_ren03.png">
+            </div>
+            <div class="box5_item-huazhi">
+                <img class="wow fadeInRight"
+                     data-wow-duration="2s"
+                     data-wow-delay="0"
+                     src="images/box5/box5_huazhi.png">
+            </div>
+            <div class="box5_item-huaban">
+                <img class="wow fadeInDown"
+                     data-wow-duration="2s"
+                     data-wow-delay="0"
+                     src="images/box5/box5_huaban.png">
+            </div>
+        </div>
+        <div class="box5_item">
+            <div class="box5_item-word">
+                <img class="wow fadeIn"
+                     data-wow-duration="1s"
+                     data-wow-delay="0s"
+                     src="images/box5/box5_wold04.png">
+            </div>
+            <div class="box5_item-ren">
+                <img class="wow fadeInRight"
+                     data-wow-duration="2s"
+                     data-wow-delay="0"
+                     src="images/box5/box5_ren04.png">
+            </div>
+        </div>
+        <div class="box5_preBtn click_box5_pre"></div>
+        <div class="box5_nextBtn click_box5_next"></div>
+    </div>
+
+    <!--过度-->
+    <div class="box5_transition animated fadeIn ">
+        <div class="swiper-container box5_swiper-trans">
+            <div class="box5_trans-tip swiper-wrapper">
+                <div class="box5_trans-bg swiper-slide">
+                    <h2>敏捷这么好，上哪找？</h2>
+                    <h3>‘剁手节’招募大会！</h3>
+                    <div>
+                        <a href="javascript:;" class="subBtn"><img src="images/box6/b6log.png" alt="">我去围观</a>
+                        <a href="javascript:;" class="subBtn"><img src="images/box6/b6log.png" alt="">立即前往</a>
+                    </div>
+
+                </div>
+                <div class="box5_trans-bg swiper-slide">
+                    <p>少年，犹豫这么久<br>老夫直接送你过去!</p>
+                </div>
+            </div>
+            <div class="box5Trans_nextBtn click_box5Trans_next"></div>
+        </div>
+
+    </div>
+
+    <section class="box6">
+        <div class="box6_bg">
+            <img src="images/box6/b6bg1.jpg" alt="">
+            <img src="images/box6/b6bg2.jpg" alt="">
+            <img src="images/box6/b6bg3.jpg" alt="">
+            <img src="images/box6/b6bg3.jpg" alt="">
+            <img src="images/box6/b6bg3.jpg" alt="">
+            <img src="images/box6/b6bg3.jpg" alt="">
+            <img style="height:190px;" src="images/box6/b6bg3.jpg" alt="">
+        </div>
+        <div class="box6_content">
+            <div class="box6_head">
+                <img src="images/box6/b6head.jpg" alt="">
+                <img src="images/box6/b6tit.png" alt="">
+            </div>
+            <div class="box6_person">
+                <img src="images/box6/b6l1.png" alt="">
+                <img src="images/box6/b6l2.png" alt="">
+                <img src="images/box6/b6l3.png" alt="">
+                <img src="images/box6/b6l4.png" alt="">
+            </div>
+
+            <div class="box6_mim">
+                <img src="images/box6/b6t2.png" alt="">
+                <img src="images/box6/b6t3.png" alt="">
+                <div class="box6_book">
+                    <img src="images/box6/b6book1.png" alt="">
+                    <img class="on-up" src="images/box6/b6book2.png" alt="">
+                    <img src="images/box6/b6book3.png" alt="">
+                    <img src="images/box6/b6book4.png" alt="">
+                </div>
+            </div>
+
+            <div class="box6_form">
+                <div class="box6_form-bd">
+                    <img src="images/box6/b6tit2.png" alt="">
+                    <ul class="box6_form-lab">
+                        <li class="on"><img src="images/box6/b6log.png" alt="">已在百度投放<img src="images/box6/b6log.png"
+                                                                                          alt=""></li>
+                        <li><img src="images/box6/b6log.png" alt=""><img src="images/box6/b6log.png" alt="">想在百度投放</li>
+                    </ul>
+                    <div class="box6_form-content">
+                        <aside class="box6_form-con">
+                            <div>
+                                <img class="box6_form-meih" src="images/box6/b6mh.png" alt="">
+                                <img class="box6_form-zx" src="images/box6/b6zx.png" alt="">
+                                <img class="box6_form-mount" src="images/box6/b6mount.PNG" alt="">
+                            </div>
+                            <h1>
+                                向 <i>客户经理</i>或对应 <i>优化师</i><br>
+                                确认报名即可</h1>
+                        </aside>
+                        <aside class="box6_form-con">
+                            <div class="input-box">
+                                <label>所在行业：</label>
+                                <select name="" id="industry">
+                                    <option value="0">请选择您的公司行业</option>
+                                    <option value="房产家居">房产家居</option>
+                                    <option value="金融服务">金融服务</option>
+                                    <option value="教育培训">教育培训</option>
+                                    <option value="医疗美容">医疗美容</option>
+                                    <option value="IT/消费电子">IT/消费电子</option>
+                                    <option value="商务服务">商务服务</option>
+                                    <option value="生活服务">生活服务</option>
+                                    <option value="其他">其他</option>
+                                </select>
+                            </div>
+                            <div class="input-box">
+                                <label> 公司名称：</label>
+                                <input type="text" maxlength="64" id="company" placeholder="请输入您的公司名字">
+                            </div>
+                            <div class="input-box">
+                                <label> 联系方式：</label>
+                                <input type="text" maxlength="11" id="phone" placeholder="请输入您的手机号码">
+                            </div>
+                            <a href="javascript:;" class="subBtn" id="sBtn"><img src="images/box6/b6log.png"
+                                                                                 alt="">提交</a>
+                        </aside>
+                    </div>
+
+                </div>
+            </div>
+            <div class="box6_foot">
+                <img class="h2" src="images/box6/b6tit3.png" alt="">
+                <div>
+                    <img src="images/box6/hz1.png" alt="">
+                    <img src="images/box6/hz2.png" alt="">
+                    <img src="images/box6/hz3.png" alt="">
+                    <img src="images/box6/hz4.png" alt="">
+                    <img src="images/box6/hz5.png" alt="">
+                    <img src="images/box6/hz6.png" alt="">
+                    <img src="images/box6/hz7.png" alt="">
+                    <img src="images/box6/hz8.png" alt="">
+                    <img src="images/box6/hz9.png" alt="">
+                    <img src="images/box6/hz10.png" alt="">
+                    <img src="images/box6/hz11.png" alt="">
+                    <img src="images/box6/hz12.png" alt="">
+                </div>
+                <img class="h3" src="images/box6/b6tit4.png" alt="">
+                <!--<h3>推广江湖，永远不会平静<br>-->
+                <!--百度敏捷团队<br>-->
+                <!--愿助您一臂之力</h3>-->
+                <img class="person" src="images/box6/b6per.png" alt="">
+                <small>*注：活动最终解释权归百度信息流所有。</small>
+            </div>
+        </div>
+        <!--弹窗-->
+        <div class="modal animated fadeInDown">
+            <span class="icon_close click_box6Modal_close"></span>
+            <span class="icon_radio_1"></span>
+            <span class="icon_radio_3"></span>
+            <span class="icon_radio_4"></span>
+            <div class="modal_content">
+                <img src="images/box6/fk.gif">
+                <img src="images/box6/hb.gif">
+                <img src="images/box6/zp.gif">
+                <img src="images/box6/lhj.gif">
+            </div>
+            <span class="modal_btnleft click_box6Modal_btnleft">上一卷【<em class="show_btnleft">老虎机</em>】</span>
+            <span class="modal_btnright click_box6Modal_btnright">下一卷【<em class="show_btnright">拆红包</em>】</span>
+        </div>
+    </section>
+</div>
+<!-- mWrap end -->
+<script type="text/javascript" src="js/helper.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript">
+
+    $(window).resize(function () {
+        setFontSize();
+    })
+
+    $(window).load(function() {
+        setTimeout(function () {
+            $("#loader").hide();
+            allContent();
+        },300)
+
+    });
+
+     function allContent() {
+        new WOW().init();
+//..................box1.........................
+        setTimeout(function () {
+            $('.click_jz').addClass('active');
+        }, 11000);
+         setTimeout(function () {
+                $('.jz_body img:nth-child(4)').addClass('box_visit');
+         }, 16500);
+            setTimeout(function () {
+                $('.jz_body img:nth-child(5)').css('visibility','visible');
+            }, 17000);
+
+        $('.click_jz').click(function () {
+            $(this).addClass('active');
+//
+        })
+
+        $('.click_box1_next').click(function () {
+            $('.box1').hide();
+            $('.box2').show();
+            setTimeout(function () {
+                $('.box2_moon').addClass('hinge');
+            }, 5000);
+            setTimeout(function () {
+                $('.box2_moon').hide();
+            }, 7500);
+            setTimeout(function () {
+                $('.box2').hide();
+                $('.box3').show();
+            }, 8500);
+            setTimeout(function () {
+                $('.box4').show();
+            }, 9500);
+            setTimeout(function () {
+                $('.box3').hide();
+            }, 12000);
+        })
+
+
+//..................box4.........................
+        var box4modal_curIndex = 0;
+        var box5modal_curIndex = 0;
+
+        var btnTextList = [
+            {'show_btnleft': '产品包装', 'show_btnright': '精准获客'},
+            {'show_btnleft': '品牌宣传', 'show_btnright': '活动促销'},
+            {'show_btnleft': '精准获客', 'show_btnright': '产品包装'},
+            {'show_btnleft': '活动促销', 'show_btnright': '品牌宣传'},
+        ]
+
+        $('.click_book .box4_book-item').removeClass('no_on');
+
+        $('.click_book .box4_book-item span').click(function () {
+            box4modal_curIndex = $(this).data('index');
+
+            changeBox4CurIndex();
+        })
+
+        $('.click_box4Modal_close').click(function () {
+            $('.click_book .box4_book-item').removeClass('active').removeClass('no_on');
+            $('.box4 .modal').hide(1);
+            $('.box4_book .box4_book-item:nth-child(2)').addClass('on-up');
+        })
+
+        function changeBox4CurIndex() {
+            if (box4modal_curIndex == -1) {
+                box4modal_curIndex = 3
+            }
+            if (box4modal_curIndex == 4) {
+                box4modal_curIndex = 0
+            }
+            $('.box4 .modal_content img').eq(box4modal_curIndex).addClass('active').siblings().removeClass('active')
+            $('.box4 .show_btnleft').html(btnTextList[box4modal_curIndex].show_btnleft);
+            $('.box4 .show_btnright').html(btnTextList[box4modal_curIndex].show_btnright);
+            $('.click_book .box4_book-item').eq(box4modal_curIndex).removeClass('no_on').addClass('active').siblings().removeClass('active').addClass('no_on');
+            $('.box4 .modal').show(1);
+            $('.box4_book .box4_book-item').removeClass('on-up');
+        }
+
+        $('.click_box4Modal_btnleft').click(function () {
+            box4modal_curIndex--
+            changeBox4CurIndex();
+        })
+
+        $('.click_box4Modal_btnright').click(function () {
+            box4modal_curIndex++
+            changeBox4CurIndex();
+        })
+
+        $('.click_box4_next').click(function () {
+            $('.box4').hide();
+            $('.box4_transition').show();
+            setTimeout(function () {
+                $('.box4_transition').hide();
+                $('.box5').show();
+            },2000);
+            box4modal_curIndex = 0;
+            changeBox5CurIndex();
+        })
+        // .................box4过度.........................
+//
+
+         $('.box5_trans-bg .submit').on('click',function () {
+             $(".box6").show();
+             $(".box5_transition").hide();
+         })
+// .................box5.........................
+        function changeBox5CurIndex() {
+            if (box5modal_curIndex == 4) {
+                $(".box5").hide();
+                $(".box5_transition").show();
+                var swiper02 = new Swiper('.box5_swiper-trans', {
+                    loop: true,
+                    speed: 300,
+                    autoplay: {
+                        delay: 3000
+                    },
+                    effect: 'flip',
+                    observer: true,
+                    observerParents: true,
+                    slideToClickedSlide: true,
+                    autoplayDisableOnInteraction: false,
+                    paginationClickable: true,
+                    spaceBetween: 10
+                });
+                setTimeout(function () {
+                    swiper02.autoplay.stop();
+                }, 3300);
+
+                setTimeout(function () {
+                    $(".box5_transition").hide();
+                    $('.box6').show();
+                }, 5000);
+                $('.box5_transition .subBtn').on('click', function () {
+                    $(".box5_transition").hide();
+                    $('.box6').show();
+                })
+
+            } else if (box5modal_curIndex == -1) {
+                $('.box5').hide();
+                $('.box4_transition').show();
+                setTimeout(function () {
+                    $('.box4_transition').hide();
+                    $('.box5').show();
+                },2000);
+
+                box5modal_curIndex = 0;
+                changeBox4CurIndex();
+            } else {
+                $('.box5_item').eq(box5modal_curIndex).addClass('active').siblings().removeClass('active')
+            }
+        }
+
+        $('.click_box5_next').click(function () {
+            box5modal_curIndex++;
+            changeBox5CurIndex();
+        })
+
+        $('.click_box5_pre').click(function () {
+            box5modal_curIndex--;
+            changeBox5CurIndex();
+        })
+
+// .................box5过渡.........................
+
+
+// .................box6.........................
+        var box6modal_curIndex = 0;
+        $('.box6_form-lab li').on('click', function () {
+            $(this).addClass('on').siblings('li').removeClass('on');
+            var a = $(this).index();
+            $('.box6_form-content aside').eq(a).show().siblings('aside').hide();
+        })
+
+
+        $('.click_box6Modal_close').click(function () {
+            $('.box6 .modal').hide(1);
+            $('.box6 .modal_content img').hide(1);
+        })
+
+        var btnTextList2 = [
+            {'show_btnleft': '老虎机', 'show_btnright': '拆红包'},
+            {'show_btnleft': '翻卡牌', 'show_btnright': '大转盘'},
+            {'show_btnleft': '拆红包', 'show_btnright': '老虎机'},
+            {'show_btnleft': '大转盘', 'show_btnright': '翻卡牌'},
+        ]
+
+        $('.box6 .box6_book img').click(function () {
+            box6modal_curIndex = $(this).index();
+            changeBox6CurIndex();
+
+        })
+
+        $('#pos-form,.position-btn').on('click', function () {
+        });
+
+        $('.click_box6Modal_close').click(function () {
+            $('.box6 .modal').hide(1);
+            $('.box6_book img').removeClass('active');
+            $('.box6_book img:nth-child(2)').addClass('on-up');
+        })
+        function changeBox6CurIndex() {
+            if (box6modal_curIndex == -1) {
+                box6modal_curIndex = 3
+            }
+            if (box6modal_curIndex == 4) {
+                box6modal_curIndex = 0
+            }
+            $('.box6 .modal_content img').eq(box6modal_curIndex).show().siblings().hide();
+            $('.box6 .show_btnleft').html(btnTextList2[box6modal_curIndex].show_btnleft);
+            $('.box6 .show_btnright').html(btnTextList2[box6modal_curIndex].show_btnright);
+            $(".box6_book img").eq(box6modal_curIndex).addClass('active').siblings('img').removeClass('active');
+            $('.box6 .modal').show(1);
+            $("html,body").animate({scrollTop: $(".box6 .modal").offset().top}, 500);
+            $('.box6_book img').removeClass('on-up');
+        }
+
+        $('.click_box6Modal_btnleft').click(function () {
+            box6modal_curIndex--
+            changeBox6CurIndex();
+        })
+
+        $('.click_box6Modal_btnright').click(function () {
+            box6modal_curIndex++
+            changeBox6CurIndex();
+        })
+
+
+
+
+
+//        表单-------
+        $('#sBtn').on('click', function () {
+            var industry = $('#industry').val();
+            var phone = $('#phone').val();
+            var company = $('#company').val();
+
+            if (industry == 0) {
+                helper.message('请选择您的行业');
+                return false;
+            }
+            if (company == '') {
+                helper.message('请输入您的公司名称');
+                return false;
+            }
+            if (helper.testInfo_phone(phone)) {
+                var form = [
+                    {name: '行业', value: industry},
+                    {name: '公司名称', value: company},
+                    {name: '电话', value: phone},
+                ];
+//                    parmsData.jsonval = form;
+                alert('提交成功！test', form)
+//                    closeModal();
+//                    return false;
+//                    helper.rest(parmsData, function (res) {
+//                        closeModal();
+//                    });
+            }
+        });
+
+    }
+</script>
+</body>
+</html>
